@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0; 
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #444;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.main {
+  background-color: #000;
+  width: 375px;
+  height: 375px;
+  box-shadow: 0 0 10px 10px;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+/*--------------------------------*/
+/* map style */
+/*--------------------------------*/
+
+.map_grid {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #fff;
+}
+
+/* free - blue */
+.mg_free {
+  background-color: #1391b0;
+}
+
+.mg_block {
+  background-color: #913d4f;
+}
+
+/* current - green */
+.mg_current {
+  background-color: #719621;
+}
+
+/* frontier - yellow */
+.mg_frontier {
+  background-color: #fcba03;
+}
